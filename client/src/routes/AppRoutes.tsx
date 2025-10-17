@@ -1,5 +1,5 @@
 import RootLayout from "@/layouts/RootLayout";
-import Basics from "@/pages/Basics";
+import Basics from "@/pages/basics/Basics";
 import HomePage from "@/pages/HomePage";
 import Openings from "@/pages/Openings";
 import Puzzles from "@/pages/Puzzles";

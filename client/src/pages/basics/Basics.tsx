@@ -1,29 +1,29 @@
-import BasicsCard from "@/components/chess/BasicsCard"
+import BasicsCard from "@/components/chess/BasicsCard";
 
-const Openings = () => {
-    const openingsCardData = [
+const Basics = () => {
+  const basicsCardData = [
         {
-            cardHeader: "London System",
+            cardHeader: "Chess Introduction",
             cardContent: "Learn about chess peices, chess board, and the each peice points",
             cardLink: "/puzzles",
             cardLinkText: "Get Started"
         },
         {
-            cardHeader: "Ruy Lopez",
+            cardHeader: "Chess Peice Movement",
             cardContent: "Learn about movement of chess peices and chess peice captures",
             cardLink: "/openings",
             cardLinkText: "Get Started"
         },
         {
-            cardHeader: "King's Indian",
+            cardHeader: "Chess Rules",
             cardContent: "Learn about chess rules including En pasent",
             cardLink: "/openings",
             cardLinkText: "Get Started"
         }
     ]
-    return (
-        <div className="flex flex-row justify-center space-x-10 m-20">
-      {openingsCardData.map((data, index) => (
+  return (
+    <div className="flex flex-row justify-center space-x-10 m-20">
+      {basicsCardData.map((data, index) => (
         <BasicsCard 
         key={index}
         cardHeader = {data.cardHeader}
@@ -33,7 +33,7 @@ const Openings = () => {
         />
       ))}
     </div>
-    )
-}
+  );
+};
 
-export default Openings
+export default Basics;
