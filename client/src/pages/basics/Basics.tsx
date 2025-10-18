@@ -5,7 +5,7 @@ const Basics = () => {
         {
             cardHeader: "Chess Introduction",
             cardContent: "Learn about chess peices, chess board, and the each peice points",
-            cardLink: "/puzzles",
+            cardLink: "/basics/intro",
             cardLinkText: "Get Started"
         },
         {
