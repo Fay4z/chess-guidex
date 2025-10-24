@@ -6,6 +6,7 @@ import WhatIsChess from "@/pages/basics/WhatIsChess";
 import HomePage from "@/pages/HomePage";
 import Openings from "@/pages/Openings";
 import Puzzles from "@/pages/Puzzles";
+import Quiz from "@/pages/Quiz";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const AppRoutes = () => {
@@ -22,6 +23,7 @@ const AppRoutes = () => {
                         </Route>
                         <Route path="openings" element={<Openings/>} />
                         <Route path="puzzles" element={<Puzzles/>} />
+                        <Route path="quiz" element={<Quiz/>}/>
                     </Route>
                 </Routes>
             </BrowserRouter>

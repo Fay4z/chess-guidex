@@ -30,6 +30,11 @@ export const NavMenu = (props: any) => (
           <NavLink to="/puzzles">Puzzles</NavLink>
         </NavigationMenuLink>
       </NavigationMenuItem>
+      <NavigationMenuItem>
+        <NavigationMenuLink asChild>
+          <NavLink to="/quiz">Quiz</NavLink>
+        </NavigationMenuLink>
+      </NavigationMenuItem>
     </NavigationMenuList>
   </NavigationMenu>
 );
