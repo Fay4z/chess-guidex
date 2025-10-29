@@ -5,7 +5,7 @@ const Quiz = () => {
         {
             cardHeader: "Beginner Quiz",
             cardContent: "Learn about chess peices, chess board, and the each peice points",
-            cardLink: "/puzzles",
+            cardLink: "/beginnerQuiz",
             cardLinkText: "Get Started"
         },
         {
